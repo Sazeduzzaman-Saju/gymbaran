@@ -32,7 +32,11 @@ body {
   padding: 0;
   scroll-behavior: smooth;
 }
-
+body {
+  background-image: url("../img/body-bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
 li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -88,4 +92,39 @@ li a {
   align-items: center;
   width: 80px !important;
   height: 40px !important;
+}
+.hero_para {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #262524;
+  opacity: 0.5;
+}
+
+.info_area {
+  background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+  border-radius: 30px;
+}
+.info_area_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background: #ffffff;
+  opacity: 0.4;
+  backdrop-filter: blur(32px);
+  border-radius: 20px;
+}
+.info-title {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #ffffff;
 }

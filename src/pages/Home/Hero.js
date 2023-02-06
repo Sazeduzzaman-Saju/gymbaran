@@ -10,12 +10,12 @@ import hero_side from '../../img/Hero_side.png'
 const Hero = () => {
     return (
         <div>
-            <section className=" ">
+            <section className="mt-20">
                 <div className="flex flex-col justify-between items-center  mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between" >
                     <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                         <h1 className="hero_title">Healthy in side <br /> <span style={{ color: "#8382EB" }}>fresh</span> out side
                         </h1>
-                        <p className="mt-6 mb-8 text-lg sm:mb-12">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine.
+                        <p className="mt-6 mb-8 text-lg sm:mb-12 hero_para ">Exercise is a very important need for our body. Health and <br /> fitness will be obtained if you can do regular exercise and <br /> run a healthy routine.
                         </p>
                         <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
                             <button className='text-1xl mr-5 bg-slate-500 px-4 py-3 rounded-lg text-white flex items-center' style={{ backgroundColor: "var(--normal-color)" }}>Get started <span className=' ml-5 text-white text-2xl'><IoIosArrowDroprightCircle></IoIosArrowDroprightCircle></span></button>
@@ -30,9 +30,17 @@ const Hero = () => {
                             <Image className='brand ml-3' src={brand4} alt=""></Image>
                         </div>
                     </div>
-                    <div className="flex items-center justify-end p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+                    <div className="flex items-center justify-end mt-10 lg:mt-0  sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
                         <Image src={hero_side} alt=""></Image>
 
+                    </div>
+                </div>
+                <div className='grid grid-cols-2 justify-between items-center gap-5'>
+                    <div className=''>
+                        <h1 className='text-6xl hero_title'>Healthy in side <br /> fresh out side</h1>
+                    </div>
+                    <div>
+                        <p className='text-md hero_para'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p>
                     </div>
                 </div>
             </section>

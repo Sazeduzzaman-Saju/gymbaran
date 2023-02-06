@@ -63,7 +63,7 @@ const Header = () => {
                     </div>
 
                     <div>
-                        <ul className="hidden  md:flex justify-between items-center gap-8 p-6  bg-white/10">
+                        <ul className="hidden  md:flex justify-between items-center gap-8 p-6 ">
                             <li>
                                 <Link href="/">
                                     Home
