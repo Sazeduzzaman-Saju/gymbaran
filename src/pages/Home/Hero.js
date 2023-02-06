@@ -13,14 +13,17 @@ const Hero = () => {
             <section className="mt-20 ">
                 <div className="flex flex-col justify-between items-center  mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between" >
                     <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-                        <h1 className="hero_title">Healthy in side <br /> <span style={{ color: "#8382EB" }}>fresh</span> out side
+                        <h1 className="hero_title ">Healthy in side <br /> <span style={{ color: "#8382EB" }}>fresh</span> out side
                         </h1>
-                        <p className="mt-6 mb-8 text-lg sm:mb-12 hero_para ">Exercise is a very important need for our body. Health and <br /> fitness will be obtained if you can do regular exercise and <br /> run a healthy routine.
+                        <p className="mt-6 mb-8 text-lg sm:mb-12 hero_para ">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and  run a healthy routine.
                         </p>
-                        <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                            <button className='text-1xl mr-5 bg-slate-500 px-4 py-3 rounded-lg text-white flex items-center' style={{ backgroundColor: "var(--normal-color)" }}>Get started <span className=' ml-5 text-white text-2xl'><IoIosArrowDroprightCircle></IoIosArrowDroprightCircle></span></button>
-
-                            <button className='text-1xl shadow-lg bg-white px-4 py-3 rounded-lg text-white flex items-center ' style={{ color: "var(--normal-color)" }}><span className='text-white text-2xl' style={{ color: "var(--normal-color)" }}><IoIosPlayCircle></IoIosPlayCircle></span> <span className='ml-5'>Get started</span>  </button>
+                        <div className="flex lg:flex-row details_buttons">
+                            <div>
+                                <button className='text-1xl mr-5 bg-slate-500 px-4 py-3 rounded-lg text-white flex items-center' style={{ backgroundColor: "var(--normal-color)" }}>Get started <span className=' ml-5 text-white text-2xl'><IoIosArrowDroprightCircle></IoIosArrowDroprightCircle></span></button>
+                            </div>
+                            <div>
+                                <button className='text-1xl shadow-lg bg-white px-4 py-3 rounded-lg text-white flex items-center ' style={{ color: "var(--normal-color)" }}><span className='text-white text-2xl' style={{ color: "var(--normal-color)" }}><IoIosPlayCircle></IoIosPlayCircle></span> <span className='ml-5'>Get started</span>  </button>
+                            </div>
                         </div>
                         <p className='mb-5 pt-5 font-semibold'>Brands:</p>
                         <div className='flex justify-start'>
@@ -35,7 +38,7 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className='grid grid-cols-2 justify-between items-center gap-5 mt-20'>
+                <div className='grid md:grid-cols-1 lg:grid-cols-2 justify-between items-center gap-5 mt-20'>
                     <div className=''>
                         <h1 className='text-6xl hero_title'>Healthy in side <br /> fresh out side</h1>
                     </div>

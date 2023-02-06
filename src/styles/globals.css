@@ -103,6 +103,16 @@ li a {
   color: #262524;
   opacity: 0.5;
 }
+.hero_para2 {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #262524;
+  opacity: 0.5;
+}
 
 .info_area {
   background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
@@ -215,4 +225,90 @@ li a {
 .swiper-pagination {
   display: flex;
   justify-content: end;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero_title {
+    font-family: "Sporting Grotesque";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: start;
+    padding-left: 1rem;
+    letter-spacing: 0.01em;
+  }
+  .hero_para {
+    width: 350px;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.5;
+    text-align: justify;
+    padding-left: 1rem;
+    padding-right: 20px;
+  }
+  .hero_para2 {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    opacity: 0.5;
+    text-align: justify;
+  }
+  .info_area {
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(87.05deg, #6462f0 0%, #9190e9 95.5%);
+    border-radius: 30px;
+  }
+  .second_details {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .work_para {
+    font-family: "Poppins" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    margin: 10px;
+  }
+  .work_box_not_active {
+    font-family: "Poppins" sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #262524;
+    margin: 10px;
+    background: #ffffff;
+    box-shadow: 0px 20px 80px rgba(51, 78, 123, 0.3);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .info_area {
+    margin-top: 3rem;
+  }
+  .footer {
+    padding-left: 30px;
+  }
+  body {
+    background-image: none !important;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+  .details_buttons {
+    margin-left: 1rem;
+  }
 }

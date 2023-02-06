@@ -15,7 +15,7 @@ const Feature = () => {
                     <div className="max-w-3xl mx-auto text-center">
                         <h2 className="hero_title">Programs that can <br /> be taken</h2>
                     </div>
-                    <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-3 lg:gap-x-8">
+                    <dl className="mt-12 space-y-10 sm:space-y-0 sm:gap-x-6 sm:gap-y-12 lg:gap-x-8 grid md:grid-cols-1 lg:grid-cols-3">
                         <div className="flex">
                             <Image src={feature1} alt=""></Image>
                             <div className="ml-3">

@@ -16,32 +16,32 @@ const Header = () => {
             <ul
                 className={
                     active
-                        ? "flex-col flex items-center fixed inset-0  uppercase bg-black/40 backdrop-blur-lg gap-8 justify-center   md:hidden"
+                        ? "flex-col flex items-center fixed pt-10 inset-0  uppercase bg-black/70 backdrop-blur-lg gap-8   md:hidden"
                         : "hidden"
                 }
             >
-                <p onClick={showMenu} className="border-1 border-red-400">
-                    <GrFormClose></GrFormClose>
-                </p>
+                <button onClick={showMenu} className="border-2 border-[#6765F0] rounded-full p-2 text-white hover:bg-[#ffffff] text-2xl">
+                    <GrFormClose className=''></GrFormClose>
+                </button>
 
-                <li>
-                    <Link href="/">
+                <li >
+                    <Link href="/" className='text-white hover:text-[#6765F0]'>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link href="/projects">
+                    <Link href="/projects" className='text-white hover:text-[#6765F0]'>
                         Program
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="/about">
+                    <Link href="/about" className='text-white hover:text-[#6765F0]'>
                         Blog
                     </Link>
                 </li>
                 <li>
-                    <Link href="/contact">
+                    <Link href="/contact" className='text-white hover:text-[#6765F0]'>
                         About Us
                     </Link>
                 </li>

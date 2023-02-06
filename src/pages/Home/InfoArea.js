@@ -6,8 +6,8 @@ import pose1 from '../../img/pose1.png';
 const InfoArea = () => {
     return (
         <div>
-            <section className="py-20 px-20 my-6 info_area mt-24 mb-24">
-                <div className="container grid grid-cols-3 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-3">
+            <section className="py-20 px-20 my-6 info_area mt-24 mb-24 ">
+                <div className="container grid lg:grid-cols-3 md:grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-3 ">
                     <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
                         <div className="flex info_area_icon justify-center p-2 align-middle  sm:p-4 ">
                             <Image src={pose1} className="" alt='' ></Image>
