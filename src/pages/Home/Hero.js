@@ -10,7 +10,7 @@ import hero_side from '../../img/Hero_side.png'
 const Hero = () => {
     return (
         <div>
-            <section className="mt-20">
+            <section className="mt-20 ">
                 <div className="flex flex-col justify-between items-center  mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between" >
                     <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
                         <h1 className="hero_title">Healthy in side <br /> <span style={{ color: "#8382EB" }}>fresh</span> out side
@@ -35,7 +35,7 @@ const Hero = () => {
 
                     </div>
                 </div>
-                <div className='grid grid-cols-2 justify-between items-center gap-5'>
+                <div className='grid grid-cols-2 justify-between items-center gap-5 mt-20'>
                     <div className=''>
                         <h1 className='text-6xl hero_title'>Healthy in side <br /> fresh out side</h1>
                     </div>

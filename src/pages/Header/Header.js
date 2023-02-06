@@ -2,6 +2,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import logo from '../../img/logo.png'
+import { FiMenu } from "react-icons/fi";
+import { GrFormClose } from "react-icons/gr";
 
 const Header = () => {
     const [active, setActive] = useState(false);
@@ -14,11 +16,13 @@ const Header = () => {
             <ul
                 className={
                     active
-                        ? "flex-col flex items-center fixed inset-0 left-1/4 uppercase bg-black/40 backdrop-blur-lg gap-8 justify-center p-8 md:hidden"
+                        ? "flex-col flex items-center fixed inset-0  uppercase bg-black/40 backdrop-blur-lg gap-8 justify-center   md:hidden"
                         : "hidden"
                 }
             >
-                <button onClick={showMenu} className="btn btn-primary">close menu</button>
+                <p onClick={showMenu} className="border-1 border-red-400">
+                    <GrFormClose></GrFormClose>
+                </p>
 
                 <li>
                     <Link href="/">
@@ -46,20 +50,20 @@ const Header = () => {
     };
 
     return (
-        <div>
+        <div className='px-4 py-1'>
             <nav className='container mx-auto '>
 
-                <div className='flex justify-between items-center py-1'>
+                <div className='flex justify-between items-center '>
                     <div className='flex justify-center items-center'>
                         <Link href="/">
                             <Image src={logo} alt="/"></Image>
                         </Link>
                     </div>
 
-                    <div className="absolute right-0 md:hidden ">
-                        <button onClick={showMenu} className="btn btn-primary">
-                            Show Menu
-                        </button>
+                    <div className="absolute right-10 md:hidden flex items-center">
+                        <p onClick={showMenu} className=" ">
+                            <span className=' text-black text-2xl'><FiMenu></FiMenu></span>
+                        </p>
                     </div>
 
                     <div>
@@ -85,7 +89,9 @@ const Header = () => {
                                     About Us
                                 </Link>
                             </li>
-                            <button className='btn btn-primary bg-[#264373]'>Get Started</button>
+                            <div className='mr-3'>
+                                <button className='btn btn-primary bg-[#264373] mr-3'>Get Started</button>
+                            </div>
                         </ul>
                     </div>
                 </div>
