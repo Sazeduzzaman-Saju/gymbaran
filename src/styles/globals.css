@@ -73,3 +73,19 @@ li a {
   opacity: 1.5;
   color: white;
 }
+
+.hero_title {
+  font-family: "Sporting Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 60px;
+  letter-spacing: 0.01em;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px !important;
+  height: 40px !important;
+}

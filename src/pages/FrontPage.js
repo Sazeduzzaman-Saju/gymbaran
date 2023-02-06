@@ -1,13 +1,12 @@
 import useWebTitle from '@/hook/useWebTitle';
 import React from 'react';
+import Hero from './Home/Hero';
 
 const Front = () => {
     useWebTitle('Gym Home')
     return (
         <div className='container mx-auto'>
-            <h1 className="text-3xl font-bold underline">
-                Hello world!
-            </h1>
+            <Hero></Hero>
         </div>
     );
 };

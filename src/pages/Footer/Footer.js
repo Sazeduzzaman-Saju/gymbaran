@@ -6,7 +6,7 @@ import footer_logo from '../../img/Footer_logo.png';
 const Footer = () => {
     return (
         <div className="mt-5" style={{ backgroundColor: "var(--normal-color)" }}>
-            <footer className="footer container p-10 pt-24 pb-24">
+            <footer className="footer container mx-auto  pt-24 pb-24">
                 <div className=''>
                     <Image src={footer_logo} alt=''></Image>
                     <p className='pt-4 fbrand-text'>We take care of your health with <br /> regular and fun exercise</p>
