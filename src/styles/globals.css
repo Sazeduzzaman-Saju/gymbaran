@@ -43,5 +43,33 @@ li a {
 }
 
 .footer {
+  color: white !important;
+}
+.footer-link span {
+  color: white !important;
+}
+
+.fbrand-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer-link a {
+  font-family: "Poppins" sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  opacity: 0.6;
+}
+.footer-title {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 1.5;
   color: white;
 }

@@ -1,9 +1,11 @@
+import useWebTitle from '@/hook/useWebTitle';
 import Head from 'next/head'
-import Front from './Front';
+import Front from './FrontPage';
 
 
 
 export default function Home() {
+  useWebTitle('Gym Home Page')
   return (
     <>
       <Head>

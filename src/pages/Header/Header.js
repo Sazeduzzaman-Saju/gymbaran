@@ -51,9 +51,9 @@ const Header = () => {
 
                 <div className='flex justify-between items-center py-1'>
                     <div className='flex justify-center items-center'>
-                        <h1 className='text-4xl'>
+                        <Link href="/">
                             <Image src={logo} alt="/"></Image>
-                        </h1>
+                        </Link>
                     </div>
 
                     <div className="absolute right-0 md:hidden ">
@@ -70,18 +70,18 @@ const Header = () => {
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/">
+                                <Link href="/Program">
                                     Program
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/">
+                                <Link href="/Blog">
                                     Blog
                                 </Link>
                             </li>
 
                             <li>
-                                <Link href="/about">
+                                <Link href="/About">
                                     About Us
                                 </Link>
                             </li>
