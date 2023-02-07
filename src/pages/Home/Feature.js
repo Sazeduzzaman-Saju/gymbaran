@@ -17,9 +17,9 @@ const Feature = () => {
                         <h2 className="hero_title">Programs that can <br /> be taken</h2>
                     </div>
                     <div className="mt-12 space-y-10 sm:space-y-0 sm:gap-x-6 sm:gap-y-12 lg:gap-x-8 grid md:grid-cols-1 lg:grid-cols-3">
-                        <div className="flex" data-aos="fade-right"
-                            data-aos-duration="1000">
-                            <Image src={feature1} alt=""></Image>
+                        <div className="flex" >
+                            <Image src={feature1} alt="" data-aos="fade-right"
+                                data-aos-duration="1000"></Image>
                             <div className="ml-3" data-aos="fade-right"
                                 data-aos-duration="1500">
                                 <dt className="feature_title">Gets ABS in 2 weeks</dt>

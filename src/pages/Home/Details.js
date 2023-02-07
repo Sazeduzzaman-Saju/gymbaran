@@ -48,7 +48,7 @@ const Details = () => {
                         data-aos-duration="1500">
                         <Image src={sideimage1} alt=""></Image>
                     </div>
-                    <div className='' data-aos="fade-up"
+                    <div className='details_last' data-aos="fade-up"
                         data-aos-duration="3000">
                         <h1 className='hero_title pb-8'>How it works?</h1>
                         <p className='work_para mb-5 p-5 work_box_active'>

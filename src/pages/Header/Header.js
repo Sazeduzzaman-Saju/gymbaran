@@ -16,13 +16,12 @@ const Header = () => {
             <ul
                 className={
                     active
-                        ? "flex-col flex items-center fixed pt-10 inset-0  uppercase bg-black/70 backdrop-blur-lg gap-8   md:hidden"
+                        ? "flex-col flex items-center fixed pt-10 inset-0  uppercase bg-black/60 z-50 backdrop-blur-lg gap-8   md:hidden"
                         : "hidden"
                 }
-                data-aos="fade-up"
-                data-aos-duration="3000"
+                data-aos="zoom-in-left"
             >
-                <button onClick={showMenu} className="border-2 border-[#6765F0] rounded-full p-2 text-white hover:bg-[#ffffff] text-2xl">
+                <button onClick={showMenu} className="hover:border-2 hover:border-[#6765F0] rounded-full p-2 text-white bg-[#ffffff] text-2xl">
                     <GrFormClose className=''></GrFormClose>
                 </button>
 
@@ -63,7 +62,7 @@ const Header = () => {
                         </Link>
                     </div>
 
-                    <div className="absolute right-10 md:hidden flex items-center" data-aos="fade-up"
+                    <div className="absolute right-10 md:hidden flex items-center" data-aos="fade-left"
                         data-aos-duration="2000">
                         <p onClick={showMenu} className=" ">
                             <span className=' text-black text-2xl'><FiMenu></FiMenu></span>
@@ -72,7 +71,7 @@ const Header = () => {
 
                     <div data-aos="fade-up"
                         data-aos-duration="3000">
-                        <ul className="hidden  md:flex justify-between items-center gap-8 p-6 ">
+                        <ul className="hidden  md:flex justify-between items-center gap-8 ">
                             <li>
                                 <Link href="/">
                                     Home
@@ -94,8 +93,8 @@ const Header = () => {
                                     About Us
                                 </Link>
                             </li>
-                            <div className='mr-3'>
-                                <button className='btn btn-primary bg-[#264373] mr-3'>Get Started</button>
+                            <div className=''>
+                                <button className='btn rounded-[12px] shadow-xl bg-[#264373]  hover:bg-[#6462f0] border-0 capitalize'>Get Started</button>
                             </div>
                         </ul>
                     </div>

@@ -36,6 +36,8 @@ body {
   background-image: url("../img/body-bg.png");
   background-repeat: no-repeat;
   background-size: auto;
+  width: 100%;
+  margin: auto;
 }
 body::-webkit-scrollbar {
   width: 0.5em;
@@ -49,7 +51,9 @@ body::-webkit-scrollbar-thumb {
   background-color: #6462f0;
   outline: 1px solid slategrey;
 }
-
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 li a {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -95,7 +99,7 @@ li a {
   font-family: "Sporting Grotesque";
   font-style: normal;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 50px;
   line-height: 60px;
   letter-spacing: 0.01em;
 }
@@ -137,8 +141,8 @@ li a {
   align-items: center;
   width: 100px;
   height: 100px;
-  background: #ffffff;
-  opacity: 0.4;
+  background: #ffffff7a;
+  opacity: 0.5;
   backdrop-filter: blur(32px);
   border-radius: 20px;
 }
@@ -253,7 +257,7 @@ li a {
     letter-spacing: 0.01em;
   }
   .hero_para {
-    width: 350px;
+    width: 400px;
     font-size: 18px;
     line-height: 28px;
     letter-spacing: 0.01em;
@@ -280,6 +284,10 @@ li a {
   .second_details {
     display: flex;
     flex-direction: column-reverse;
+  }
+  .details_last {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
   }
   .work_para {
     font-family: "Poppins" sans-serif;
@@ -324,5 +332,16 @@ li a {
   }
   .details_buttons {
     margin-left: 1rem;
+  }
+  body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
   }
 }

@@ -18,12 +18,12 @@ const Hero = () => {
                         </h1>
                         <p className="mt-6 mb-8 text-lg sm:mb-12 hero_para ">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and  run a healthy routine.
                         </p>
-                        <div className="flex lg:flex-row details_buttons">
-                            <div>
-                                <button className='text-1xl mr-5 bg-slate-500 px-4 py-3 rounded-lg text-white flex items-center' style={{ backgroundColor: "var(--normal-color)" }}>Get started <span className=' ml-5 text-white text-2xl'><IoIosArrowDroprightCircle></IoIosArrowDroprightCircle></span></button>
+                        <div className="flex lg:flex-row details_buttons ">
+                            <div className=''>
+                                <button className='text-1xl btn rounded-[12px] shadow-xl bg-[#264373] mr-3 hover:bg-[#6462f0] border-0 text-white flex items-center capitalize' >Get started <span className=' ml-5 text-white text-2xl'><IoIosArrowDroprightCircle></IoIosArrowDroprightCircle></span></button>
                             </div>
-                            <div>
-                                <button className='text-1xl shadow-lg bg-white px-4 py-3 rounded-lg text-white flex items-center ' style={{ color: "var(--normal-color)" }}><span className='text-white text-2xl' style={{ color: "var(--normal-color)" }}><IoIosPlayCircle></IoIosPlayCircle></span> <span className='ml-5'>Get started</span>  </button>
+                            <div className='normal_shadow'>
+                                <button className='text-1xl shadow-xl bg-white px-4 py-3 rounded-[12px] hover:bg-[#6462f0]  border-0  flex items-center text-[#6462f0] hover:text-white capitalize' ><span className=' text-2xl text-[#6462f0] ' ><IoIosPlayCircle className='hover:text-[#fffff]'></IoIosPlayCircle></span> <span className='ml-5'>Get started</span>  </button>
                             </div>
                         </div>
                         <p className='mb-5 pt-5 font-semibold'>Brands:</p>
@@ -50,8 +50,8 @@ const Hero = () => {
                         <p className='text-md hero_para'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p>
                     </div>
                 </div>
-            </section>
-        </div>
+            </section >
+        </div >
     );
 };
 
