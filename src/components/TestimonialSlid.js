@@ -98,12 +98,16 @@ export default function TestimonialSlid() {
             >
                 {testimonialData.map((value) => <SwiperSlide key={value.id}>
                     <div className="text-start shadow-xl px-12 py-12 mb-10 mt-10">
-                        <p className="text-justify hero_para2"><span className="text-4xl ">“</span>{value.say}</p>
+                        <p className="text-justify hero_para2" data-aos="fade-up"
+                            data-aos-duration="1000"><span className="text-4xl ">“</span>{value.say}</p>
                         <div className="flex items-center pt-12">
-                            <Image src={profile} className="testimonial_profile" alt=""></Image>
+                            <Image src={profile} className="testimonial_profile" alt="" data-aos="fade-up"
+                                data-aos-duration="1500"></Image>
                             <div className="text-start ml-3 ">
-                                <h1 className="font-semibold">{value.name}</h1>
-                                <p className="hero_para2 pt-1">{value.designation}</p>
+                                <h1 className="font-semibold" data-aos="fade-up"
+                                    data-aos-duration="2500">{value.name}</h1>
+                                <p className="hero_para2 pt-1" data-aos="fade-up"
+                                    data-aos-duration="3000">{value.designation}</p>
                             </div>
                         </div>
                     </div>

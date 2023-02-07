@@ -1,6 +1,8 @@
 import useWebTitle from '@/hook/useWebTitle';
 import Head from 'next/head'
+import Script from 'next/script';
 import Front from './FrontPage';
+
 
 
 
@@ -15,6 +17,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Front></Front>
+
+      {/*  Anmation Link */}
     </>
   )
 }

@@ -6,9 +6,12 @@ import pose1 from '../../img/pose1.png';
 const InfoArea = () => {
     return (
         <div>
-            <section className="py-20 px-20 my-6 info_area mt-24 mb-24 ">
-                <div className="container grid lg:grid-cols-3 md:grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-3 ">
-                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
+            <section className="py-20 px-20 my-6 info_area mt-24 mb-24 " data-aos="fade-left"
+                data-aos-duration="2000">
+                <div className="container grid lg:grid-cols-3 md:grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-3 " >
+
+                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100" data-aos="fade-up"
+                        data-aos-duration="1000">
                         <div className="flex info_area_icon justify-center p-2 align-middle  sm:p-4 ">
                             <Image src={pose1} className="" alt='' ></Image>
                         </div>
@@ -17,7 +20,8 @@ const InfoArea = () => {
                             <p className="capitalize pt-3 flex items-center justify-between text-white " style={{ opacity: "0.3" }}><span>Learn more </span><span><IoMdArrowForward></IoMdArrowForward></span></p>
                         </div>
                     </div>
-                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
+                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100" data-aos="fade-up"
+                        data-aos-duration="1500">
                         <div className="flex info_area_icon justify-center p-2 align-middle  sm:p-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="h-9 w-9 dark:text-gray-800">
                                 <polygon points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039"></polygon>
@@ -31,7 +35,8 @@ const InfoArea = () => {
                             <p className="capitalize pt-3 flex items-center justify-between text-white " style={{ opacity: "0.3" }}><span>Learn more </span><span><IoMdArrowForward></IoMdArrowForward></span></p>
                         </div>
                     </div>
-                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
+                    <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100" data-aos="fade-up"
+                        data-aos-duration="2000">
                         <div className="flex info_area_icon justify-center p-2 align-middle  sm:p-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="h-9 w-9 dark:text-gray-800">
                                 <polygon points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039"></polygon>

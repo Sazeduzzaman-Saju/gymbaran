@@ -8,7 +8,8 @@ const Testimonial = () => {
 
     return (
         <div className='container mx-auto mt-24 mb-24'>
-            <h1 className='hero_title text-center '>Testimonials</h1>
+            <h1 className='hero_title text-center ' data-aos="fade-left"
+                data-aos-duration="2000">Testimonials</h1>
             <div>
                 <TestimonialSlid></TestimonialSlid>
             </div>

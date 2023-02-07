@@ -19,6 +19,8 @@ const Header = () => {
                         ? "flex-col flex items-center fixed pt-10 inset-0  uppercase bg-black/70 backdrop-blur-lg gap-8   md:hidden"
                         : "hidden"
                 }
+                data-aos="fade-up"
+                data-aos-duration="3000"
             >
                 <button onClick={showMenu} className="border-2 border-[#6765F0] rounded-full p-2 text-white hover:bg-[#ffffff] text-2xl">
                     <GrFormClose className=''></GrFormClose>
@@ -54,19 +56,22 @@ const Header = () => {
             <nav className='container mx-auto '>
 
                 <div className='flex justify-between items-center '>
-                    <div className='flex justify-center items-center'>
+                    <div className='flex justify-center items-center' data-aos="fade-up"
+                        data-aos-duration="1000">
                         <Link href="/">
                             <Image src={logo} alt="/"></Image>
                         </Link>
                     </div>
 
-                    <div className="absolute right-10 md:hidden flex items-center">
+                    <div className="absolute right-10 md:hidden flex items-center" data-aos="fade-up"
+                        data-aos-duration="2000">
                         <p onClick={showMenu} className=" ">
                             <span className=' text-black text-2xl'><FiMenu></FiMenu></span>
                         </p>
                     </div>
 
-                    <div>
+                    <div data-aos="fade-up"
+                        data-aos-duration="3000">
                         <ul className="hidden  md:flex justify-between items-center gap-8 p-6 ">
                             <li>
                                 <Link href="/">

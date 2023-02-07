@@ -12,7 +12,8 @@ const Hero = () => {
         <div>
             <section className="mt-20 ">
                 <div className="flex flex-col justify-between items-center  mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between" >
-                    <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+                    <div className="flex flex-col justify-center  text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left" data-aos="fade-up"
+                        data-aos-duration="1500">
                         <h1 className="hero_title ">Healthy in side <br /> <span style={{ color: "#8382EB" }}>fresh</span> out side
                         </h1>
                         <p className="mt-6 mb-8 text-lg sm:mb-12 hero_para ">Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and  run a healthy routine.
@@ -33,16 +34,19 @@ const Hero = () => {
                             <Image className='brand ml-3' src={brand4} alt=""></Image>
                         </div>
                     </div>
-                    <div className="flex items-center justify-end mt-10 lg:mt-0  sm:h-80 lg:h-96 xl:h-112 2xl:h-128">
+                    <div className="flex items-center justify-end mt-10 lg:mt-0  sm:h-80 lg:h-96 xl:h-112 2xl:h-128" data-aos="fade-up"
+                        data-aos-duration="3000">
                         <Image src={hero_side} alt=""></Image>
-
                     </div>
                 </div>
-                <div className='grid md:grid-cols-1 lg:grid-cols-2 justify-between items-center gap-5 mt-20'>
-                    <div className=''>
+
+                <div className='grid md:grid-cols-1 lg:grid-cols-2 justify-between items-center gap-5 mt-20' >
+                    <div className='' data-aos="fade-up"
+                        data-aos-duration="1500">
                         <h1 className='text-6xl hero_title'>Healthy in side <br /> fresh out side</h1>
                     </div>
-                    <div>
+                    <div data-aos="fade-up"
+                        data-aos-duration="2000">
                         <p className='text-md hero_para'>Exercise is a very important need for our body. Health and fitness will be obtained if you can do regular exercise and run a healthy routine. Even at home we still have to be diligent in exercising, either alone or with your friends at home. Healthy life makes you more excited to live the day</p>
                     </div>
                 </div>
